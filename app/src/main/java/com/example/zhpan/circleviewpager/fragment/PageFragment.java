@@ -91,8 +91,8 @@ public class PageFragment extends BaseFragment {
 
     private void setupBanner(@APageStyle int pageStyle) {
         mViewPager
-                .setPageMargin(getResources().getDimensionPixelOffset(R.dimen.dp_10))
-                .setRevealWidth(getResources().getDimensionPixelOffset(R.dimen.dp_10))
+                .setPageMargin(getResources().getDimensionPixelOffset(R.dimen.dp_15))
+                .setRevealWidth(getResources().getDimensionPixelOffset(R.dimen.dp_15))
                 .setPageStyle(pageStyle)
                 .create(getMDrawableList());
     }
